@@ -2,12 +2,38 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
+.pheader h2 {
+  text-align: left;
+}
+
 .column {
+  text-align: center;
   width: 50%;
-  float: left
-  ;
+  float: left;
+  box-sizing: border-box;
+  border: 3px black;
+  border-style: double;
+  height: 150px;
+  padding: 5px;
 }
 
 .about {
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
+}
+
+.ulist {
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+
+#headshot {
+  float: left;
+  width: 30%;
+  height: auto;
+  padding: 5px;
 }
